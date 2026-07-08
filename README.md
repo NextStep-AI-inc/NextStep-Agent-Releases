@@ -7,7 +7,7 @@ Canvas teachers. Source code is private; this repo only hosts release artifacts.
 
 | | |
 |---|---|
-| **Latest** | [0.2.48](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
+| **Latest** | [0.2.64](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
 | **All releases** | [https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases) |
 
 **Platforms:** macOS (Apple Silicon + Intel), Windows (x64), Linux (x64 + arm64 AppImage).
@@ -18,119 +18,134 @@ Installed copies update automatically once a release is published here.
 
 ## Release history
 
-### 0.2.49 *(building)* — —
+### 0.2.64 **(latest)** — 7/8/2026
 
-  - mount update banner in the app shell
-  - add in-app update ready banner
-  - wire update IPC between main and renderer
-  - track pending downloads instead of native restart dialog
-  - restart intro flow after sign-out from completed app
-  - show shell progress as two steps
+  - tolerate missing tag ref when deleting stale draft releases
+  - retry hindsight contract fetch and use the workflow token
+  - style(invites): match the account-confirmation email template
+  - restore worker observability config
+  - invite a friend with referral auto-apply, resend email, and house dialog
+  - use Sentry cron monitor wrapper
 
-[Download 0.2.49](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.49)
+[Download 0.2.64](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.64)
 
-### 0.2.48 **(latest)** — 7/7/2026
+### 0.2.63 — 7/8/2026
 
-  - Bundle 16 additional shared OMP skills for all agent profiles.
-  - Add USAGE_COST_SOURCE toggle to switch metering back to LiteLLM later.
-  - Cover dev preview session behavior
-  - Meter usage caps from the token rate card instead of LiteLLM cost.
-  - Disable implicit update install on quit
-  - Fix subscription usage fallback
+  - Polish Canvas theme settings and bump release to v0.2.63.
+  - Fix dark Canvas theming on CDN-hosted stylesheets via a CORS-free preload fetch bridge.
+  - Revert "chore: temporarily roll back codebase to v0.2.59."
+  - temporarily roll back codebase to v0.2.59.
 
-[Download 0.2.48](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.48)
+[Download 0.2.63](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.63)
 
-### 0.2.47 — 7/7/2026
+### 0.2.62 — 7/8/2026
 
-  - Show separate 5-hour and weekly usage bars in Subscription settings.
-  - persist Canvas sessions across app restart and update
+  - sync package-lock.json for darkreader dependency.
 
-[Download 0.2.47](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.47)
+[Download 0.2.62](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.62)
 
-### 0.2.46 — 7/7/2026
+### 0.2.61 *(building)* — —
 
-  - Bundle humanizer as a shared OMP skill for all agent profiles.
-  - retarget writer to telemetry.ai_calls (nextstep-schema #25)
-  - Remove trailing blank line in platform hint test
-  - Reject drive-qualified file tool paths
-  - Fix renderer platform hints
+  - bump version to 0.2.61
+  - auto-refetch school primaryColor when missing from saved settings.
+  - Update profile-skills test for the bundled canvas-theme skill.
+  - Add Canvas theme row (Default/Dark/Custom) with assistant-designed custom themes.
+  - Expose canvasTheme over IPC: set-mode handler, prepareCustom, AppState field, boot init.
+  - add school and custom accent color pickers in Settings.
 
-[Download 0.2.46](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.46)
+[Download 0.2.61](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.61)
 
-### 0.2.45 — 7/7/2026
+### 0.2.60 *(building)* — —
 
-  - Route Canvas brain backfill through lightspeed-slow to cut background sync cost.
-  - Raise background anti-hijack cap to $200 per UTC calendar month.
-  - Track all-time background and total user spend for internal cost metrics.
+  - bump version to 0.2.60
+  - Fix sidebar chat list scroll getting stuck mid-list.
+  - Add canvasTheme setting (default/dark/custom), drop dead reskinEnabled.
+  - Bundle canvas-theme skill for assistant-designed custom Canvas themes.
+  - Add Canvas themes implementation plan.
+  - Add Canvas themes design spec (Default / Dark / Custom + canvas-theme skill).
 
-[Download 0.2.45](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.45)
+[Download 0.2.60](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.60)
 
-### 0.2.44 — 7/7/2026
+### 0.2.59 — 7/8/2026
 
-  - Clarify and test that background lane spend is excluded from usage caps.
-  - Switch usage caps to dual window and weekly limits by tier.
-  - Move usage display to Subscription settings with percent remaining.
+  - bump version to 0.2.59
+  - Move manual update checks into the Settings Updates row.
+  - Replace update banner with a compact nav rail pill.
+  - Let dev:fresh skip account creation with a seeded UW email session.
+  - Add self-serve account deletion to the web portal.
 
-[Download 0.2.44](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.44)
+[Download 0.2.59](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.59)
 
-### 0.2.43 — 7/7/2026
+### 0.2.58 — 7/8/2026
 
-  - Fix mac arch-file globs with brace expansion and bump to 0.2.43.
+  - bump version to 0.2.58
+  - Fix switch school dialog resetting search input while typing.
+  - Load all 62 WA Canvas schools into Agent D1 with branding metadata.
+  - Add Agent Worker school discovery so desktop onboarding loads Canvas from D1.
 
-[Download 0.2.43](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.43)
+[Download 0.2.58](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.58)
 
-### 0.2.42 *(building)* — —
+### 0.2.57 — 7/8/2026
 
-  - Split trial and paid usage caps and show remaining allowance in the UI.
+  - bump version to 0.2.57
+  - Polish desktop shell UX so navigation, chat, and browser chrome feel native and readable.
+  - Slow background sync to 12h when idle; green until 24h stale.
+  - Fix Windows OMP skill check and skip memory tests without FTS5
+  - Fix OMP humanizer frontmatter (#89)
+  - Fix hide assistant tooltip layering above the nav rail.
 
-[Download 0.2.42](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.42)
+[Download 0.2.57](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.57)
 
-### 0.2.41 *(building)* — —
+### 0.2.56 — 7/8/2026
 
-  - Fix mac universal git merge rules and bump to 0.2.41.
-  - Enforce a $100/month usage cap for trial and paid users.
+  - bump version to 0.2.56
+  - Replace native update-check dialogs with in-app notices.
+  - fill usage meters by remaining allowance
+  - Improve auto-update flow with phased state and Settings progress (#85)
+  - Fix dev sidecar resource paths (#87)
 
-[Download 0.2.41](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.41)
+[Download 0.2.56](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.56)
 
-### 0.2.4 *(building)* — —
+### 0.2.55 *(building)* — —
 
-  - Replace Canvas exploration sidebar card with a minimal footer progress bar.
+  - bump version to 0.2.55
+  - use landing page SVG wordmark in portal header
 
-[Download 0.2.4](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.4)
+[Download 0.2.55](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.55)
 
-### 0.2.3 *(building)* — —
+### 0.2.54 *(building)* — —
 
-  - Improve Canvas brain auth detection and start exploration immediately on sign-in.
+  - Fix chat sidebar actions
+  - remove unused Modernize browser button
+  - make usage percent-based, keep USD spend admin-only
+  - Refactor background sync harness: always-on sync, single resume path, extracted host.
 
-[Download 0.2.3](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.3)
+[Download 0.2.54](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.54)
 
-### 0.2.2 *(building)* — —
+### 0.2.53 *(building)* — —
 
-  - Fix mac universal git bundling and bump to 0.2.2.
-  - Fix accidental chromium-pickle-js version in package-lock.
+  - Apply humanizer to interactive chat prose
 
-[Download 0.2.2](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.2)
+[Download 0.2.53](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.53)
 
-### 0.2.1 *(building)* — —
+### 0.2.52 *(building)* — —
 
-  - Bundle git in desktop installers and drop exclusive device-account linking.
-  - Redesign sidebar Canvas exploration card as a footer-matched ring row
-  - show referral earnings and credit balance in Settings
+  - Harden bundled OMP skills
 
-[Download 0.2.1](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.1)
+[Download 0.2.52](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.52)
 
-### 0.2.0 — 7/7/2026
+### 0.2.51 — 7/8/2026
 
-  - Fix desktop settings UX and restore agent model controls.
-  - clarify Microsoft OAuth exchange failures
-  - add Microsoft sign-in on web and desktop
-  - add repo-local git config helpers
-  - dedupe well-known worker handler and tighten tests
-  - serve Entra domain verification from static assets
+  - Harden desktop web navigation boundaries (#86)
+  - Fix onboarding reset race on cold start after autoupdate
+  - Fix visual model routing
+  - Move update banner into agent column (#84)
+  - Implement Risa feedback polish pass
+  - Fix update banner placement and primary button hover.
 
-[Download 0.2.0](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.0)
+[Download 0.2.51](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.51)
 
 ---
 
 *This page is generated from tagged releases in the private `NextStep-Agent` repo.
-Last updated for `v0.2.48`.*
+Last updated for `v0.2.64`.*
