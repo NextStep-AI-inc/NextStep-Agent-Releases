@@ -7,7 +7,7 @@ Canvas teachers. Source code is private; this repo only hosts release artifacts.
 
 | | |
 |---|---|
-| **Latest** | [0.2.64](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
+| **Latest** | [0.2.65](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
 | **All releases** | [https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases) |
 
 **Platforms:** macOS (Apple Silicon + Intel), Windows (x64), Linux (x64 + arm64 AppImage).
@@ -18,7 +18,18 @@ Installed copies update automatically once a release is published here.
 
 ## Release history
 
-### 0.2.64 **(latest)** — 7/8/2026
+### 0.2.65 **(latest)** — 7/8/2026
+
+  - import JSX and RefObject types in NavRail
+  - repair main regressions blocking the v0.2.65 build
+  - bump version to 0.2.65
+  - persist session cookies so the Canvas login survives restarts
+  - Validate desktop billing external URLs
+  - align email template styling
+
+[Download 0.2.65](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.65)
+
+### 0.2.64 — 7/8/2026
 
   - tolerate missing tag ref when deleting stale draft releases
   - retry hindsight contract fetch and use the workflow token
@@ -131,21 +142,15 @@ Installed copies update automatically once a release is published here.
 ### 0.2.52 *(building)* — —
 
   - Harden bundled OMP skills
-
-[Download 0.2.52](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.52)
-
-### 0.2.51 — 7/8/2026
-
   - Harden desktop web navigation boundaries (#86)
   - Fix onboarding reset race on cold start after autoupdate
   - Fix visual model routing
   - Move update banner into agent column (#84)
   - Implement Risa feedback polish pass
-  - Fix update banner placement and primary button hover.
 
-[Download 0.2.51](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.51)
+[Download 0.2.52](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.52)
 
 ---
 
 *This page is generated from tagged releases in the private `NextStep-Agent` repo.
-Last updated for `v0.2.64`.*
+Last updated for `v0.2.65`.*
