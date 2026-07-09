@@ -7,7 +7,7 @@ Canvas teachers. Source code is private; this repo only hosts release artifacts.
 
 | | |
 |---|---|
-| **Latest** | [0.2.70](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
+| **Latest** | [0.2.71](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
 | **All releases** | [https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases) |
 
 **Platforms:** macOS (Apple Silicon + Intel), Windows (x64), Linux (x64 + arm64 AppImage).
@@ -18,7 +18,17 @@ Installed copies update automatically once a release is published here.
 
 ## Release history
 
-### 0.2.70 **(latest)** — 7/9/2026
+### 0.2.71 **(latest)** — 7/9/2026
+
+  - Fix force-update test types for desktop typecheck.
+  - Add admin force-update for desktops that fall behind.
+  - Show all known devices with app version in Admin fleet list.
+  - Tag admin bundle downloads with who requested and who downloaded.
+  - Isolate desktop dev instances per worktree (#122)
+
+[Download 0.2.71](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.71)
+
+### 0.2.70 — 7/9/2026
 
   - Replace auto-snapshot ZIPs with resumable rsync-like tree sync.
   - Fix autoSnapshots test fetch typing for desktop typecheck.
@@ -137,21 +147,12 @@ Installed copies update automatically once a release is published here.
   - Fix switch school dialog resetting search input while typing.
   - Load all 62 WA Canvas schools into Agent D1 with branding metadata.
   - Add Agent Worker school discovery so desktop onboarding loads Canvas from D1.
-
-[Download 0.2.58](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.58)
-
-### 0.2.57 — 7/8/2026
-
   - bump version to 0.2.57
   - Polish desktop shell UX so navigation, chat, and browser chrome feel native and readable.
-  - Slow background sync to 12h when idle; green until 24h stale.
-  - Fix Windows OMP skill check and skip memory tests without FTS5
-  - Fix OMP humanizer frontmatter (#89)
-  - Fix hide assistant tooltip layering above the nav rail.
 
-[Download 0.2.57](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.57)
+[Download 0.2.58](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.58)
 
 ---
 
 *This page is generated from tagged releases in the private `NextStep-Agent` repo.
-Last updated for `v0.2.70`.*
+Last updated for `v0.2.71`.*
