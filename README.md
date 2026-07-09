@@ -21,19 +21,17 @@ Installed copies update automatically once a release is published here.
 ### 0.2.80 *(building)* — —
 
   - Support optional Worker-configured diagnostic sync paths.
-  - Mint rclone include and exclude filters from the Worker.
-  - Include Crashpad and logs in folder rclone sync.
 
 [Download 0.2.80](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.80)
 
 ### 0.2.79 **(latest)** — 7/9/2026
 
-  - Mint rclone sync filters from the Worker on rcCreds.
+  - Mint rclone include and exclude filters from the Worker.
   - Include Crashpad and logs in folder rclone sync.
 
 [Download 0.2.79](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.79)
 
-### 0.2.78 *(building)* — —
+### 0.2.78 — 7/9/2026
 
   - Include Crashpad and logs in folder rclone sync.
 
