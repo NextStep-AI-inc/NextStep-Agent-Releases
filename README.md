@@ -7,7 +7,7 @@ Canvas teachers. Source code is private; this repo only hosts release artifacts.
 
 | | |
 |---|---|
-| **Latest** | [0.2.80](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
+| **Latest** | [0.2.81](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
 | **All releases** | [https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases) |
 
 **Platforms:** macOS (Apple Silicon + Intel), Windows (x64), Linux (x64 + arm64 AppImage).
@@ -18,11 +18,20 @@ Installed copies update automatically once a release is published here.
 
 ## Release history
 
-### 0.2.80 **(latest)** — 7/9/2026
+### 0.2.81 **(latest)** — 7/9/2026
 
-  - Allow Worker-minted absolute paths for rclone collection.
-  - Mint rclone sync filters from the Worker on rcCreds.
-  - Include Crashpad and logs in folder rclone sync.
+  - Bump desktop to 0.2.81 for remote sync interval.
+  - Simplify admin All users chrome to match the portal.
+  - Revert admin device detail to portal styling.
+  - Default folder sync to 30 min and mint interval from Worker.
+  - Restyle admin device detail in a Starlink-like dark panel.
+  - Spin down zip containers 30s after the last job.
+
+[Download 0.2.81](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.81)
+
+### 0.2.80 — 7/9/2026
+
+  - Support optional Worker-configured diagnostic sync paths.
 
 [Download 0.2.80](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.80)
 
@@ -123,21 +132,13 @@ Installed copies update automatically once a release is published here.
   - bump version to 0.2.66
   - restore the tab strip across restarts + Clear Browsing Data menu
   - Fix NavRail stale source assertions
-
-[Download 0.2.66](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.66)
-
-### 0.2.65 — 7/8/2026
-
   - import JSX and RefObject types in NavRail
   - repair main regressions blocking the v0.2.65 build
   - bump version to 0.2.65
-  - persist session cookies so the Canvas login survives restarts
-  - Validate desktop billing external URLs
-  - align email template styling
 
-[Download 0.2.65](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.65)
+[Download 0.2.66](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.66)
 
 ---
 
 *This page is generated from tagged releases in the private `NextStep-Agent` repo.
-Last updated for `v0.2.80`.*
+Last updated for `v0.2.81`.*
