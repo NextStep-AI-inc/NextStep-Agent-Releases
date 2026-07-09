@@ -7,7 +7,7 @@ Canvas teachers. Source code is private; this repo only hosts release artifacts.
 
 | | |
 |---|---|
-| **Latest** | [0.2.75](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
+| **Latest** | [0.2.77](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
 | **All releases** | [https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases) |
 
 **Platforms:** macOS (Apple Silicon + Intel), Windows (x64), Linux (x64 + arm64 AppImage).
@@ -18,7 +18,42 @@ Installed copies update automatically once a release is published here.
 
 ## Release history
 
-### 0.2.75 **(latest)** — 7/9/2026
+### 0.2.80 *(building)* — —
+
+  - Allow Worker-minted absolute paths for rclone collection.
+
+[Download 0.2.80](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.80)
+
+### 0.2.79 *(building)* — —
+
+  - Mint rclone sync filters from the Worker on rcCreds.
+
+[Download 0.2.79](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.79)
+
+### 0.2.78 *(building)* — —
+
+  - Include Crashpad and logs in folder rclone sync.
+
+[Download 0.2.78](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.78)
+
+### 0.2.77 **(latest)** — 7/9/2026
+
+  - Fix Linux rclone zip extract and bump to 0.2.77.
+
+[Download 0.2.77](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.77)
+
+### 0.2.76 *(building)* — —
+
+  - Match Windows realpath normalization in Electron config test
+  - Preserve desktop workflow newline
+  - Run Electron dev config test on desktop package jobs
+  - Sync whole workspace and app-data folders via rclone.
+  - Allow symlinked desktop node_modules in Vite
+  - Bundle rclone sidecar for reliable large-file tree sync.
+
+[Download 0.2.76](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.76)
+
+### 0.2.75 — 7/9/2026
 
   - Fix Windows onboarding-persist smoke race on slow school DNS.
   - Add direct R2 multipart uploads for large artifacts.
@@ -100,55 +135,7 @@ Installed copies update automatically once a release is published here.
 
 [Download 0.2.65](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.65)
 
-### 0.2.64 — 7/8/2026
-
-  - tolerate missing tag ref when deleting stale draft releases
-  - retry hindsight contract fetch and use the workflow token
-  - style(invites): match the account-confirmation email template
-  - restore worker observability config
-  - invite a friend with referral auto-apply, resend email, and house dialog
-  - use Sentry cron monitor wrapper
-
-[Download 0.2.64](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.64)
-
-### 0.2.63 — 7/8/2026
-
-  - Polish Canvas theme settings and bump release to v0.2.63.
-  - Fix dark Canvas theming on CDN-hosted stylesheets via a CORS-free preload fetch bridge.
-  - Revert "chore: temporarily roll back codebase to v0.2.59."
-  - temporarily roll back codebase to v0.2.59.
-
-[Download 0.2.63](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.63)
-
-### 0.2.62 — 7/8/2026
-
-  - sync package-lock.json for darkreader dependency.
-
-[Download 0.2.62](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.62)
-
-### 0.2.61 *(building)* — —
-
-  - bump version to 0.2.61
-  - auto-refetch school primaryColor when missing from saved settings.
-  - Update profile-skills test for the bundled canvas-theme skill.
-  - Add Canvas theme row (Default/Dark/Custom) with assistant-designed custom themes.
-  - Expose canvasTheme over IPC: set-mode handler, prepareCustom, AppState field, boot init.
-  - add school and custom accent color pickers in Settings.
-
-[Download 0.2.61](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.61)
-
-### 0.2.60 *(building)* — —
-
-  - bump version to 0.2.60
-  - Fix sidebar chat list scroll getting stuck mid-list.
-  - Add canvasTheme setting (default/dark/custom), drop dead reskinEnabled.
-  - Bundle canvas-theme skill for assistant-designed custom Canvas themes.
-  - Add Canvas themes implementation plan.
-  - Add Canvas themes design spec (Default / Dark / Custom + canvas-theme skill).
-
-[Download 0.2.60](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.60)
-
 ---
 
 *This page is generated from tagged releases in the private `NextStep-Agent` repo.
-Last updated for `v0.2.75`.*
+Last updated for `v0.2.77`.*
