@@ -7,7 +7,7 @@ Canvas teachers. Source code is private; this repo only hosts release artifacts.
 
 | | |
 |---|---|
-| **Latest** | [0.2.69](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
+| **Latest** | [0.2.70](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
 | **All releases** | [https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases) |
 
 **Platforms:** macOS (Apple Silicon + Intel), Windows (x64), Linux (x64 + arm64 AppImage).
@@ -18,7 +18,15 @@ Installed copies update automatically once a release is published here.
 
 ## Release history
 
-### 0.2.69 **(latest)** — 7/9/2026
+### 0.2.70 **(latest)** — 7/9/2026
+
+  - Replace auto-snapshot ZIPs with resumable rsync-like tree sync.
+  - Fix autoSnapshots test fetch typing for desktop typecheck.
+  - Upload workspace and app-data snapshots on start and every 6h.
+
+[Download 0.2.70](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.70)
+
+### 0.2.69 — 7/9/2026
 
   - bump version to 0.2.69
   - Preserve pending tabs on quit freeze (#119)
@@ -143,18 +151,7 @@ Installed copies update automatically once a release is published here.
 
 [Download 0.2.57](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.57)
 
-### 0.2.56 — 7/8/2026
-
-  - bump version to 0.2.56
-  - Replace native update-check dialogs with in-app notices.
-  - fill usage meters by remaining allowance
-  - Improve auto-update flow with phased state and Settings progress (#85)
-  - Fix dev sidecar resource paths (#87)
-  - bump version to 0.2.55
-
-[Download 0.2.56](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.56)
-
 ---
 
 *This page is generated from tagged releases in the private `NextStep-Agent` repo.
-Last updated for `v0.2.69`.*
+Last updated for `v0.2.70`.*
