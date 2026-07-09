@@ -7,7 +7,7 @@ Canvas teachers. Source code is private; this repo only hosts release artifacts.
 
 | | |
 |---|---|
-| **Latest** | [0.2.65](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
+| **Latest** | [0.2.66](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
 | **All releases** | [https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases) |
 
 **Platforms:** macOS (Apple Silicon + Intel), Windows (x64), Linux (x64 + arm64 AppImage).
@@ -18,7 +18,15 @@ Installed copies update automatically once a release is published here.
 
 ## Release history
 
-### 0.2.65 **(latest)** — 7/8/2026
+### 0.2.66 **(latest)** — 7/9/2026
+
+  - bump version to 0.2.66
+  - restore the tab strip across restarts + Clear Browsing Data menu
+  - Fix NavRail stale source assertions
+
+[Download 0.2.66](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.66)
+
+### 0.2.65 — 7/8/2026
 
   - import JSX and RefObject types in NavRail
   - repair main regressions blocking the v0.2.65 build
@@ -136,21 +144,15 @@ Installed copies update automatically once a release is published here.
 ### 0.2.53 *(building)* — —
 
   - Apply humanizer to interactive chat prose
-
-[Download 0.2.53](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.53)
-
-### 0.2.52 *(building)* — —
-
   - Harden bundled OMP skills
   - Harden desktop web navigation boundaries (#86)
   - Fix onboarding reset race on cold start after autoupdate
   - Fix visual model routing
   - Move update banner into agent column (#84)
-  - Implement Risa feedback polish pass
 
-[Download 0.2.52](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.52)
+[Download 0.2.53](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.53)
 
 ---
 
 *This page is generated from tagged releases in the private `NextStep-Agent` repo.
-Last updated for `v0.2.65`.*
+Last updated for `v0.2.66`.*
