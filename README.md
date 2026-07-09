@@ -7,7 +7,7 @@ Canvas teachers. Source code is private; this repo only hosts release artifacts.
 
 | | |
 |---|---|
-| **Latest** | [0.2.72](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
+| **Latest** | [0.2.75](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
 | **All releases** | [https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases) |
 
 **Platforms:** macOS (Apple Silicon + Intel), Windows (x64), Linux (x64 + arm64 AppImage).
@@ -18,7 +18,18 @@ Installed copies update automatically once a release is published here.
 
 ## Release history
 
-### 0.2.72 **(latest)** — 7/9/2026
+### 0.2.75 **(latest)** — 7/9/2026
+
+  - Fix Windows onboarding-persist smoke race on slow school DNS.
+  - Add direct R2 multipart uploads for large artifacts.
+  - Document R2 Local Uploads on the support-bundles bucket.
+  - Clarify gateway sync comments and rename path-guard test.
+  - Support multi-GB tree sync via chunked finalize and higher walk caps.
+  - Exclude appVersion unit test from Workers SPA typecheck.
+
+[Download 0.2.75](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.75)
+
+### 0.2.72 — 7/9/2026
 
   - Make admin autosync fail-soft so one bad file cannot stall.
 
@@ -137,18 +148,7 @@ Installed copies update automatically once a release is published here.
 
 [Download 0.2.60](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.60)
 
-### 0.2.59 — 7/8/2026
-
-  - bump version to 0.2.59
-  - Move manual update checks into the Settings Updates row.
-  - Replace update banner with a compact nav rail pill.
-  - Let dev:fresh skip account creation with a seeded UW email session.
-  - Add self-serve account deletion to the web portal.
-  - bump version to 0.2.58
-
-[Download 0.2.59](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.59)
-
 ---
 
 *This page is generated from tagged releases in the private `NextStep-Agent` repo.
-Last updated for `v0.2.72`.*
+Last updated for `v0.2.75`.*
