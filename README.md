@@ -7,7 +7,7 @@ Canvas teachers. Source code is private; this repo only hosts release artifacts.
 
 | | |
 |---|---|
-| **Latest** | [0.2.67](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
+| **Latest** | [0.2.68](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
 | **All releases** | [https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases) |
 
 **Platforms:** macOS (Apple Silicon + Intel), Windows (x64), Linux (x64 + arm64 AppImage).
@@ -18,7 +18,14 @@ Installed copies update automatically once a release is published here.
 
 ## Release history
 
-### 0.2.67 **(latest)** — 7/9/2026
+### 0.2.68 **(latest)** — 7/9/2026
+
+  - bump version to 0.2.68
+  - toolbar squeeze - side clusters floor at content, field shrinks
+
+[Download 0.2.68](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.68)
+
+### 0.2.67 — 7/9/2026
 
   - bump version to 0.2.67
   - group creation moves you in (tab at birth); center address field
@@ -140,21 +147,14 @@ Installed copies update automatically once a release is published here.
 
   - bump version to 0.2.55
   - use landing page SVG wordmark in portal header
-
-[Download 0.2.55](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.55)
-
-### 0.2.54 *(building)* — —
-
   - Fix chat sidebar actions
   - remove unused Modernize browser button
   - make usage percent-based, keep USD spend admin-only
   - Refactor background sync harness: always-on sync, single resume path, extracted host.
-  - Apply humanizer to interactive chat prose
-  - Harden bundled OMP skills
 
-[Download 0.2.54](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.54)
+[Download 0.2.55](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.55)
 
 ---
 
 *This page is generated from tagged releases in the private `NextStep-Agent` repo.
-Last updated for `v0.2.67`.*
+Last updated for `v0.2.68`.*
