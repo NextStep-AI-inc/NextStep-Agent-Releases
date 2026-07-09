@@ -7,7 +7,7 @@ Canvas teachers. Source code is private; this repo only hosts release artifacts.
 
 | | |
 |---|---|
-| **Latest** | [0.2.68](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
+| **Latest** | [0.2.69](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
 | **All releases** | [https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases) |
 
 **Platforms:** macOS (Apple Silicon + Intel), Windows (x64), Linux (x64 + arm64 AppImage).
@@ -18,7 +18,17 @@ Installed copies update automatically once a release is published here.
 
 ## Release history
 
-### 0.2.68 **(latest)** — 7/9/2026
+### 0.2.69 **(latest)** — 7/9/2026
+
+  - bump version to 0.2.69
+  - Preserve pending tabs on quit freeze (#119)
+  - Refactor admin live telemetry composition out of god files.
+  - Add admin live presence, brain/OMP inspect, and remote support bundles.
+  - Fix approval editor platform shortcut
+
+[Download 0.2.69](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.69)
+
+### 0.2.68 — 7/9/2026
 
   - bump version to 0.2.68
   - toolbar squeeze - side clusters floor at content, field shrinks
@@ -140,21 +150,11 @@ Installed copies update automatically once a release is published here.
   - fill usage meters by remaining allowance
   - Improve auto-update flow with phased state and Settings progress (#85)
   - Fix dev sidecar resource paths (#87)
+  - bump version to 0.2.55
 
 [Download 0.2.56](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.56)
-
-### 0.2.55 *(building)* — —
-
-  - bump version to 0.2.55
-  - use landing page SVG wordmark in portal header
-  - Fix chat sidebar actions
-  - remove unused Modernize browser button
-  - make usage percent-based, keep USD spend admin-only
-  - Refactor background sync harness: always-on sync, single resume path, extracted host.
-
-[Download 0.2.55](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.55)
 
 ---
 
 *This page is generated from tagged releases in the private `NextStep-Agent` repo.
-Last updated for `v0.2.68`.*
+Last updated for `v0.2.69`.*
