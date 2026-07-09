@@ -7,7 +7,7 @@ Canvas teachers. Source code is private; this repo only hosts release artifacts.
 
 | | |
 |---|---|
-| **Latest** | [0.2.77](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
+| **Latest** | [0.2.79](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
 | **All releases** | [https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases) |
 
 **Platforms:** macOS (Apple Silicon + Intel), Windows (x64), Linux (x64 + arm64 AppImage).
@@ -20,13 +20,16 @@ Installed copies update automatically once a release is published here.
 
 ### 0.2.80 *(building)* — —
 
-  - Allow Worker-minted absolute paths for rclone collection.
+  - Support optional Worker-configured diagnostic sync paths.
+  - Mint rclone include and exclude filters from the Worker.
+  - Include Crashpad and logs in folder rclone sync.
 
 [Download 0.2.80](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.80)
 
-### 0.2.79 *(building)* — —
+### 0.2.79 **(latest)** — 7/9/2026
 
   - Mint rclone sync filters from the Worker on rcCreds.
+  - Include Crashpad and logs in folder rclone sync.
 
 [Download 0.2.79](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.79)
 
@@ -36,7 +39,7 @@ Installed copies update automatically once a release is published here.
 
 [Download 0.2.78](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.78)
 
-### 0.2.77 **(latest)** — 7/9/2026
+### 0.2.77 — 7/9/2026
 
   - Fix Linux rclone zip extract and bump to 0.2.77.
 
@@ -138,4 +141,4 @@ Installed copies update automatically once a release is published here.
 ---
 
 *This page is generated from tagged releases in the private `NextStep-Agent` repo.
-Last updated for `v0.2.77`.*
+Last updated for `v0.2.79`.*
