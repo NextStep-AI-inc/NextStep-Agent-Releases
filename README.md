@@ -7,7 +7,7 @@ Canvas teachers. Source code is private; this repo only hosts release artifacts.
 
 | | |
 |---|---|
-| **Latest** | [0.2.84](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
+| **Latest** | [0.2.85](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
 | **All releases** | [https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases) |
 
 **Platforms:** macOS (Apple Silicon + Intel), Windows (x64), Linux (x64 + arm64 AppImage).
@@ -18,7 +18,18 @@ Installed copies update automatically once a release is published here.
 
 ## Release history
 
-### 0.2.84 **(latest)** — 7/10/2026
+### 0.2.85 **(latest)** — 7/10/2026
+
+  - bump version to 0.2.85
+  - open reports from account menu and harden Linear filing
+  - classify gateway route failures
+  - simplify bug report dialog header
+  - close reports when auth degrades
+  - contain untrusted crash data
+
+[Download 0.2.85](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.85)
+
+### 0.2.84 — 7/10/2026
 
   - Remove remote force-update from admin and desktop.
 
@@ -119,21 +130,13 @@ Installed copies update automatically once a release is published here.
   - Replace auto-snapshot ZIPs with resumable rsync-like tree sync.
   - Fix autoSnapshots test fetch typing for desktop typecheck.
   - Upload workspace and app-data snapshots on start and every 6h.
-
-[Download 0.2.70](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.70)
-
-### 0.2.69 — 7/9/2026
-
   - bump version to 0.2.69
   - Preserve pending tabs on quit freeze (#119)
   - Refactor admin live telemetry composition out of god files.
-  - Add admin live presence, brain/OMP inspect, and remote support bundles.
-  - Fix approval editor platform shortcut
-  - bump version to 0.2.68
 
-[Download 0.2.69](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.69)
+[Download 0.2.70](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.70)
 
 ---
 
 *This page is generated from tagged releases in the private `NextStep-Agent` repo.
-Last updated for `v0.2.84`.*
+Last updated for `v0.2.85`.*
