@@ -7,7 +7,7 @@ Canvas teachers. Source code is private; this repo only hosts release artifacts.
 
 | | |
 |---|---|
-| **Latest** | [0.2.86](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
+| **Latest** | [0.2.87](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
 | **All releases** | [https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases) |
 
 **Platforms:** macOS (Apple Silicon + Intel), Windows (x64), Linux (x64 + arm64 AppImage).
@@ -18,7 +18,18 @@ Installed copies update automatically once a release is published here.
 
 ## Release history
 
-### 0.2.86 **(latest)** — 7/10/2026
+### 0.2.87 **(latest)** — 7/10/2026
+
+  - harden Canvas gather pipeline for release
+  - test(desktop): unbreak gatewayPathGuard on a current-prefix comment
+  - reject prefix-lookalike origins in canvas pagination guard
+  - docs(brain): add live real-call A/B token measurement (81 nextstep-tiny completions)
+  - docs(brain): add canvas gather pipeline implementation plan
+  - docs(brain): add canvas token-burn report measured on live bench
+
+[Download 0.2.87](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.87)
+
+### 0.2.86 — 7/10/2026
 
   - bump version to 0.2.86
   - Send legacy screenshot so prod Linear still gets bug-report images.
@@ -123,21 +134,15 @@ Installed copies update automatically once a release is published here.
 ### 0.2.72 — 7/9/2026
 
   - Make admin autosync fail-soft so one bad file cannot stall.
-
-[Download 0.2.72](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.72)
-
-### 0.2.71 — 7/9/2026
-
   - Fix force-update test types for desktop typecheck.
   - Add admin force-update for desktops that fall behind.
   - Show all known devices with app version in Admin fleet list.
   - Tag admin bundle downloads with who requested and who downloaded.
   - Isolate desktop dev instances per worktree (#122)
-  - Replace auto-snapshot ZIPs with resumable rsync-like tree sync.
 
-[Download 0.2.71](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.71)
+[Download 0.2.72](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.72)
 
 ---
 
 *This page is generated from tagged releases in the private `NextStep-Agent` repo.
-Last updated for `v0.2.86`.*
+Last updated for `v0.2.87`.*
