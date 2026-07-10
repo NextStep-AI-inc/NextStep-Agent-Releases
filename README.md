@@ -7,7 +7,7 @@ Canvas teachers. Source code is private; this repo only hosts release artifacts.
 
 | | |
 |---|---|
-| **Latest** | [0.2.81](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
+| **Latest** | [0.2.82](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
 | **All releases** | [https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases) |
 
 **Platforms:** macOS (Apple Silicon + Intel), Windows (x64), Linux (x64 + arm64 AppImage).
@@ -18,7 +18,30 @@ Installed copies update automatically once a release is published here.
 
 ## Release history
 
-### 0.2.81 **(latest)** — 7/9/2026
+### 0.2.84 *(building)* — —
+
+  - Remove remote force-update from admin and desktop.
+
+[Download 0.2.84](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.84)
+
+### 0.2.83 *(building)* — —
+
+  - Pin sync collection scope to the desktop build.
+
+[Download 0.2.83](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.83)
+
+### 0.2.82 **(latest)** — 7/10/2026
+
+  - Release desktop 0.2.82 concurrent chats
+  - close concurrent-session review blockers
+  - ignore spike-out scratch dir
+  - docs: redact local username paths and API responseId from spike findings
+  - restore xpfx guard-comment reword lost after #137
+  - docs: record concurrent-sessions acceptance run
+
+[Download 0.2.82](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.82)
+
+### 0.2.81 — 7/9/2026
 
   - Bump desktop to 0.2.81 for remote sync interval.
   - Simplify admin All users chrome to match the portal.
@@ -106,39 +129,11 @@ Installed copies update automatically once a release is published here.
   - Refactor admin live telemetry composition out of god files.
   - Add admin live presence, brain/OMP inspect, and remote support bundles.
   - Fix approval editor platform shortcut
+  - bump version to 0.2.68
 
 [Download 0.2.69](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.69)
-
-### 0.2.68 — 7/9/2026
-
-  - bump version to 0.2.68
-  - toolbar squeeze - side clusters floor at content, field shrinks
-
-[Download 0.2.68](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.68)
-
-### 0.2.67 — 7/9/2026
-
-  - bump version to 0.2.67
-  - group creation moves you in (tab at birth); center address field
-  - freeze-frame canvas under overlays + inline group creation
-  - toolbar GroupSwitcher replaces tab-bar group chips
-  - Safari 1:1 tab segments - stadium shape, full-area click, unfilled inactive
-  - real liquid glass - macOS window vibrancy under translucent chrome
-
-[Download 0.2.67](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.67)
-
-### 0.2.66 — 7/9/2026
-
-  - bump version to 0.2.66
-  - restore the tab strip across restarts + Clear Browsing Data menu
-  - Fix NavRail stale source assertions
-  - import JSX and RefObject types in NavRail
-  - repair main regressions blocking the v0.2.65 build
-  - bump version to 0.2.65
-
-[Download 0.2.66](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.66)
 
 ---
 
 *This page is generated from tagged releases in the private `NextStep-Agent` repo.
-Last updated for `v0.2.81`.*
+Last updated for `v0.2.82`.*
