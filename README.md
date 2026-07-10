@@ -7,7 +7,7 @@ Canvas teachers. Source code is private; this repo only hosts release artifacts.
 
 | | |
 |---|---|
-| **Latest** | [0.2.83](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
+| **Latest** | [0.2.84](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
 | **All releases** | [https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases) |
 
 **Platforms:** macOS (Apple Silicon + Intel), Windows (x64), Linux (x64 + arm64 AppImage).
@@ -18,13 +18,13 @@ Installed copies update automatically once a release is published here.
 
 ## Release history
 
-### 0.2.84 *(building)* — —
+### 0.2.84 **(latest)** — 7/10/2026
 
   - Remove remote force-update from admin and desktop.
 
 [Download 0.2.84](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.84)
 
-### 0.2.83 **(latest)** — 7/10/2026
+### 0.2.83 — 7/10/2026
 
   - Pin sync collection scope to the desktop build.
 
@@ -136,4 +136,4 @@ Installed copies update automatically once a release is published here.
 ---
 
 *This page is generated from tagged releases in the private `NextStep-Agent` repo.
-Last updated for `v0.2.83`.*
+Last updated for `v0.2.84`.*
