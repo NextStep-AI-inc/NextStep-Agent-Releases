@@ -7,7 +7,7 @@ Canvas teachers. Source code is private; this repo only hosts release artifacts.
 
 | | |
 |---|---|
-| **Latest** | [0.2.87](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
+| **Latest** | [0.2.88](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
 | **All releases** | [https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases) |
 
 **Platforms:** macOS (Apple Silicon + Intel), Windows (x64), Linux (x64 + arm64 AppImage).
@@ -18,7 +18,18 @@ Installed copies update automatically once a release is published here.
 
 ## Release history
 
-### 0.2.87 **(latest)** — 7/10/2026
+### 0.2.88 **(latest)** — 7/11/2026
+
+  - bump version to 0.2.88
+  - Layer Canvas sync reset confirm like Bug reports.
+  - Replace native reset confirm with an in-app dialog.
+  - Tuck Reset mirror into the Canvas sync info popover.
+  - Add Reset mirror to wipe the local Canvas sync and restart backfill.
+  - Tune Canvas sync info tip: flat multiline copy with a light outline.
+
+[Download 0.2.88](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.88)
+
+### 0.2.87 — 7/10/2026
 
   - harden Canvas gather pipeline for release
   - test(desktop): unbreak gatewayPathGuard on a current-prefix comment
@@ -131,18 +142,7 @@ Installed copies update automatically once a release is published here.
 
 [Download 0.2.75](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.75)
 
-### 0.2.72 — 7/9/2026
-
-  - Make admin autosync fail-soft so one bad file cannot stall.
-  - Fix force-update test types for desktop typecheck.
-  - Add admin force-update for desktops that fall behind.
-  - Show all known devices with app version in Admin fleet list.
-  - Tag admin bundle downloads with who requested and who downloaded.
-  - Isolate desktop dev instances per worktree (#122)
-
-[Download 0.2.72](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.72)
-
 ---
 
 *This page is generated from tagged releases in the private `NextStep-Agent` repo.
-Last updated for `v0.2.87`.*
+Last updated for `v0.2.88`.*
