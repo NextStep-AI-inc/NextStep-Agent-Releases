@@ -7,7 +7,7 @@ Canvas teachers. Source code is private; this repo only hosts release artifacts.
 
 | | |
 |---|---|
-| **Latest** | [0.2.90](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
+| **Latest** | [0.2.91](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
 | **All releases** | [https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases) |
 
 **Platforms:** macOS (Apple Silicon + Intel), Windows (x64), Linux (x64 + arm64 AppImage).
@@ -18,7 +18,17 @@ Installed copies update automatically once a release is published here.
 
 ## Release history
 
-### 0.2.90 **(latest)** — 7/13/2026
+### 0.2.91 **(latest)** — 7/13/2026
+
+  - bump version to 0.2.91
+  - Use Google instead of DuckDuckGo for address-bar search
+  - docs: force-update kill-switch design spec
+  - docs: drop em-dashes from welcome email copy
+  - docs: welcome-email-on-signup design spec
+
+[Download 0.2.91](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.91)
+
+### 0.2.90 — 7/13/2026
 
   - run Canvas sync on lightspeed instead of tiny
 
@@ -128,21 +138,15 @@ Installed copies update automatically once a release is published here.
 ### 0.2.78 — 7/9/2026
 
   - Include Crashpad and logs in folder rclone sync.
-
-[Download 0.2.78](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.78)
-
-### 0.2.77 — 7/9/2026
-
   - Fix Linux rclone zip extract and bump to 0.2.77.
   - Match Windows realpath normalization in Electron config test
   - Preserve desktop workflow newline
   - Run Electron dev config test on desktop package jobs
   - Sync whole workspace and app-data folders via rclone.
-  - Allow symlinked desktop node_modules in Vite
 
-[Download 0.2.77](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.77)
+[Download 0.2.78](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.78)
 
 ---
 
 *This page is generated from tagged releases in the private `NextStep-Agent` repo.
-Last updated for `v0.2.90`.*
+Last updated for `v0.2.91`.*
