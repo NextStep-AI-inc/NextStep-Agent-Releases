@@ -7,7 +7,7 @@ Canvas teachers. Source code is private; this repo only hosts release artifacts.
 
 | | |
 |---|---|
-| **Latest** | [0.2.89](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
+| **Latest** | [0.2.90](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
 | **All releases** | [https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases) |
 
 **Platforms:** macOS (Apple Silicon + Intel), Windows (x64), Linux (x64 + arm64 AppImage).
@@ -18,7 +18,13 @@ Installed copies update automatically once a release is published here.
 
 ## Release history
 
-### 0.2.89 **(latest)** — 7/13/2026
+### 0.2.90 **(latest)** — 7/13/2026
+
+  - run Canvas sync on lightspeed instead of tiny
+
+[Download 0.2.90](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.90)
+
+### 0.2.89 — 7/13/2026
 
   - Revert "Merge pull request #147 from NextStep-AI-inc/worktree-canvas-get-pipeline"
   - enable AGENT_SESSION_RUNTIME binding after worker ship
@@ -128,21 +134,15 @@ Installed copies update automatically once a release is published here.
 ### 0.2.77 — 7/9/2026
 
   - Fix Linux rclone zip extract and bump to 0.2.77.
-
-[Download 0.2.77](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.77)
-
-### 0.2.76 *(building)* — —
-
   - Match Windows realpath normalization in Electron config test
   - Preserve desktop workflow newline
   - Run Electron dev config test on desktop package jobs
   - Sync whole workspace and app-data folders via rclone.
   - Allow symlinked desktop node_modules in Vite
-  - Bundle rclone sidecar for reliable large-file tree sync.
 
-[Download 0.2.76](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.76)
+[Download 0.2.77](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.77)
 
 ---
 
 *This page is generated from tagged releases in the private `NextStep-Agent` repo.
-Last updated for `v0.2.89`.*
+Last updated for `v0.2.90`.*
