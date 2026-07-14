@@ -7,7 +7,7 @@ Canvas teachers. Source code is private; this repo only hosts release artifacts.
 
 | | |
 |---|---|
-| **Latest** | [0.2.95](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
+| **Latest** | [0.2.96](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
 | **All releases** | [https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases) |
 
 **Platforms:** macOS (Apple Silicon + Intel), Windows (x64), Linux (x64 + arm64 AppImage).
@@ -18,7 +18,14 @@ Installed copies update automatically once a release is published here.
 
 ## Release history
 
-### 0.2.95 **(latest)** — 7/14/2026
+### 0.2.96 **(latest)** — 7/14/2026
+
+  - stop steady-state sync kicks on Canvas tab chrome
+  - bump version to 0.2.96 after v0.2.95 stable release
+
+[Download 0.2.96](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.96)
+
+### 0.2.95 — 7/14/2026
 
   - auto-reset the Canvas mirror on a sync-logic schema bump
   - a 403 is never 'expected' — overreport via sync_feedback
@@ -135,21 +142,15 @@ Installed copies update automatically once a release is published here.
 ### 0.2.83 — 7/10/2026
 
   - Pin sync collection scope to the desktop build.
-
-[Download 0.2.83](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.83)
-
-### 0.2.82 — 7/10/2026
-
   - Release desktop 0.2.82 concurrent chats
   - close concurrent-session review blockers
   - ignore spike-out scratch dir
   - docs: redact local username paths and API responseId from spike findings
   - restore xpfx guard-comment reword lost after #137
-  - docs: record concurrent-sessions acceptance run
 
-[Download 0.2.82](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.82)
+[Download 0.2.83](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.83)
 
 ---
 
 *This page is generated from tagged releases in the private `NextStep-Agent` repo.
-Last updated for `v0.2.95`.*
+Last updated for `v0.2.96`.*
