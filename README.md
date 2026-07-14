@@ -7,7 +7,7 @@ Canvas teachers. Source code is private; this repo only hosts release artifacts.
 
 | | |
 |---|---|
-| **Latest** | [0.2.94](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
+| **Latest** | [0.2.95](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
 | **All releases** | [https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases) |
 
 **Platforms:** macOS (Apple Silicon + Intel), Windows (x64), Linux (x64 + arm64 AppImage).
@@ -18,7 +18,18 @@ Installed copies update automatically once a release is published here.
 
 ## Release history
 
-### 0.2.94 **(latest)** — 7/14/2026
+### 0.2.95 **(latest)** — 7/14/2026
+
+  - auto-reset the Canvas mirror on a sync-logic schema bump
+  - a 403 is never 'expected' — overreport via sync_feedback
+  - backfill completes once reachable courses are done — restricted courses no longer block it
+  - role-aware canvas_sync — student roles skip staff-only sections
+  - stop perpetual 'syncing' loop — steady cadence keys off backfill completion, not the always-active mirror goal
+  - sync_feedback auto-attaches the chat transcript + folds sync-log/status/coverage into every report
+
+[Download 0.2.95](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.95)
+
+### 0.2.94 — 7/14/2026
 
   - Fix nightly source tag: set git identity for annotated tags
   - Fix nightly updater feed: set GitHub publish channel to nightly
@@ -138,18 +149,7 @@ Installed copies update automatically once a release is published here.
 
 [Download 0.2.82](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.82)
 
-### 0.2.81 — 7/9/2026
-
-  - Bump desktop to 0.2.81 for remote sync interval.
-  - Simplify admin All users chrome to match the portal.
-  - Revert admin device detail to portal styling.
-  - Default folder sync to 30 min and mint interval from Worker.
-  - Restyle admin device detail in a Starlink-like dark panel.
-  - Spin down zip containers 30s after the last job.
-
-[Download 0.2.81](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.81)
-
 ---
 
 *This page is generated from tagged releases in the private `NextStep-Agent` repo.
-Last updated for `v0.2.94`.*
+Last updated for `v0.2.95`.*
