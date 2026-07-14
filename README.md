@@ -7,7 +7,7 @@ Canvas teachers. Source code is private; this repo only hosts release artifacts.
 
 | | |
 |---|---|
-| **Latest** | [0.2.92](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
+| **Latest** | [0.2.93](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
 | **All releases** | [https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases) |
 
 **Platforms:** macOS (Apple Silicon + Intel), Windows (x64), Linux (x64 + arm64 AppImage).
@@ -18,7 +18,18 @@ Installed copies update automatically once a release is published here.
 
 ## Release history
 
-### 0.2.92 **(latest)** — 7/13/2026
+### 0.2.93 **(latest)** — 7/14/2026
+
+  - bump version to 0.2.93
+  - restore device-id fallback for bug report submit
+  - ci: remove redundant Actions Worker deploy (Cloudflare Workers Builds owns deploys)
+  - welcome From is 'Jason Hedrick' (comma broke name parsing)
+  - ci: build web assets before wrangler deploy
+  - ci: deploy apps/web Worker via GitHub Actions
+
+[Download 0.2.93](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.93)
+
+### 0.2.92 — 7/13/2026
 
   - client-checked force-update gate (min-version)
 
@@ -132,21 +143,15 @@ Installed copies update automatically once a release is published here.
 ### 0.2.80 — 7/9/2026
 
   - Support optional Worker-configured diagnostic sync paths.
-
-[Download 0.2.80](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.80)
-
-### 0.2.79 — 7/9/2026
-
   - Mint rclone include and exclude filters from the Worker.
   - Include Crashpad and logs in folder rclone sync.
   - Fix Linux rclone zip extract and bump to 0.2.77.
   - Match Windows realpath normalization in Electron config test
   - Preserve desktop workflow newline
-  - Run Electron dev config test on desktop package jobs
 
-[Download 0.2.79](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.79)
+[Download 0.2.80](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.80)
 
 ---
 
 *This page is generated from tagged releases in the private `NextStep-Agent` repo.
-Last updated for `v0.2.92`.*
+Last updated for `v0.2.93`.*
