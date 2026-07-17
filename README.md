@@ -7,7 +7,7 @@ Canvas teachers. Source code is private; this repo only hosts release artifacts.
 
 | | |
 |---|---|
-| **Latest** | [0.2.96](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
+| **Latest** | [0.2.97](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/latest) |
 | **All releases** | [https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases) |
 
 **Platforms:** macOS (Apple Silicon + Intel), Windows (x64), Linux (x64 + arm64 AppImage).
@@ -18,7 +18,18 @@ Installed copies update automatically once a release is published here.
 
 ## Release history
 
-### 0.2.96 **(latest)** — 7/14/2026
+### 0.2.97 **(latest)** — 7/17/2026
+
+  - keep browser lock acquire timer ref'd and clear on abandon
+  - do not force sync on every auth token refresh
+  - bound worktree subagent fan-out in skill
+  - time out browser_tabs lock acquire
+  - abort chat turns on wall-clock and tool-step caps
+  - rotate OMP session on halt, steady entry, and max turns
+
+[Download 0.2.97](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.97)
+
+### 0.2.96 — 7/14/2026
 
   - stop steady-state sync kicks on Canvas tab chrome
   - bump version to 0.2.96 after v0.2.95 stable release
@@ -136,21 +147,15 @@ Installed copies update automatically once a release is published here.
 ### 0.2.84 — 7/10/2026
 
   - Remove remote force-update from admin and desktop.
-
-[Download 0.2.84](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.84)
-
-### 0.2.83 — 7/10/2026
-
   - Pin sync collection scope to the desktop build.
   - Release desktop 0.2.82 concurrent chats
   - close concurrent-session review blockers
   - ignore spike-out scratch dir
   - docs: redact local username paths and API responseId from spike findings
-  - restore xpfx guard-comment reword lost after #137
 
-[Download 0.2.83](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.83)
+[Download 0.2.84](https://github.com/NextStep-AI-inc/NextStep-Agent-Releases/releases/tag/v0.2.84)
 
 ---
 
 *This page is generated from tagged releases in the private `NextStep-Agent` repo.
-Last updated for `v0.2.96`.*
+Last updated for `v0.2.97`.*
